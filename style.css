@@ -1,3 +1,21 @@
+h3{
+    width:350px;
+    height:50px;
+    font-size:30px !important;
+}
+#btn:hover{
+    background-color:black;
+}
 body{
-    font-size:50px;
+    background-image:url(./background.jpg)
+}
+canvas{
+    border:3px solid;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 36px red}
+to{box-shadow: 1px 1px 36px black}
 }
